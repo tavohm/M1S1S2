@@ -1,4 +1,5 @@
-## Welcome to GitHub Pages
+## Bienvenidos al repositorio de las asignaturas 
+## CONSTRUYE ALGORITMOS Y APLICA ESTRUCTURAS DE CONTROL EN UN LENGUAJE DE PROGRAMACIÓN
 
 You can use the [editor on GitHub](https://github.com/tavohm/M1S1S2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
