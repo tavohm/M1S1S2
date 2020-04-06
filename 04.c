@@ -5,28 +5,21 @@
 #include <stdio.h>
 
 int main(){
-   int a,b,c;
+   int a,b;
 
-   printf("Ciclo FOR\n");
-   for (a = 0; a < 11; a = a + 1) // INCREMENTO
+   printf("\nINCREMENTO:");
+   a = 0;
+   while(a<=10) //INCREMENTO, AVANZAR
    {
       printf("%d ",a);
+      a = a + 1;
    }
 
-   printf("\n\nCiclo WHILE\n");
-   b=0;
-   while(b<=50)
+   printf("\nDECREMENTO:");
+   for( b=10; b>=0; b=b-2)
    {
       printf("%d ",b);
-      b = b + 3; // INCREMENTO
    }
-
-   printf("\n\nCiclo DO WHILE\n");
-   c = 0;
-   do{
-      printf("%d ",c);
-      c = c + 4; // INCREMENTO
-   }while(c<=30);
 
    return 0;
 }
