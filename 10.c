@@ -3,7 +3,7 @@
 void suma(int, int); //protipo de la función, no regresa valores
 
 #include <stdio.h>
-#include "10.h"
+//#include "10.h"
 
 int main(){
 
@@ -15,10 +15,11 @@ int main(){
     scanf("%d",&b);
 
     suma(a,b);
-    printf("\nUsando la funcion resta de la libreria: %d",resta(a,b));
+    //printf("\nUsando la funcion resta de la libreria: %d",resta(a,b));
     return 0;
 }
 
-void suma(int a, int b){
-    printf("Suma: %d + %d = %d",a,b,a+b);
+
+void suma(int F, int G){
+    printf("Suma: %d + %d = %d",F,G,F+G);
 }
